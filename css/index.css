@@ -1,0 +1,275 @@
+body{
+    background-color: rgb(241,242,244);
+    margin: 0px;
+    font-family: "Poppins", serif;
+    overflow-x: hidden;
+  
+}
+/* div{
+    background-color: white;
+} */
+#navbar1{ 
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color:white;
+}
+
+#brandlogo{
+    margin-left: 25px;
+}
+
+#searchbox{
+    height: 39px;
+    width: 34%;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(240,244,255);
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+i{
+    font-size: 25px;
+}
+
+.sicon{
+  color: grey;
+  position: relative;
+  left: 70px;
+}
+
+label{
+    font-size: 16px;
+}
+#searchbox:focus{
+    outline: none;
+}
+
+#logindiv{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;  
+    gap: 5px;  
+    
+    padding: 7px 10px 7px 10px;
+}
+
+#logindiv:hover{ /*Hover is an event raised when mouse in over the element */
+    border-radius: 7px;
+    background-color: rgb(42,85,229);
+    color: white;
+}
+
+#cartdiv,#sellerdiv{
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    gap: 5px;  
+}
+
+.menuicon{
+    margin-left: 35px;
+}
+#navbar2{
+    background-color: white;
+    height: 130px;
+    margin-top:8px;
+    width: 97%;
+    margin-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav2items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height:110px;
+    width: 80px;
+    align-items: center;
+    margin-left: 40px;
+    /* padding: 3px; */
+    /* background-color: bisque; */
+    padding: 10px;
+
+}
+
+.nav2items.item1{
+    margin-left: 50px;
+}
+#navbar3{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 8px;
+    margin-left: 12px;
+    /* <img src="images/slider1...webp" alt="logo"> */
+}
+#navbar3 img{
+    width: 100%;
+
+
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+    margin-left: 12px;
+    /* gap: 3%; */
+    /* background-color: antiquewhite; */
+
+}
+.coloum{
+    width: 70%;
+    height: 100%;
+    /* background-color:white; */
+    gap: 1%;
+    background-color: antiquewhite;
+    
+
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.slide{
+    width: 230px;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 1%;
+
+  
+
+
+}
+.text{
+    justify-content: center;
+    text-align: center;
+    /* gap: 3%; */
+    width: 70%;
+    /* height: 300px; */
+  
+}
+#fix4{
+   width: 150px;
+   height: 200px;
+   object-fit: cover;
+   box-sizing: border-box;
+   border-radius: 3%;
+   
+
+    
+    
+}
+.coloum2{
+    width: 26%;
+    height: 377px;
+   /* background-color: aqua; */
+    display: flex;
+}
+
+.fixed{
+    width: 100%;
+    border-radius: 5%;
+    
+}
+
+
+section#nav4{
+    width:100%;
+    height: 350px;
+    margin-left: 12px;
+    /* background-color: cadetblue; */
+    /* margin-top: 220px; */
+    display: flex;
+    /* background-color: white; */
+    
+}
+#cards2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 1%;
+    gap: 4%;
+    background-color: azure;
+} 
+.slide2{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 270px;
+    height: 280px;
+    background-color: aquamarine;
+    
+}   
+
+#navbar5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 723px;
+    margin-top: 17px;
+    margin-left: 12px;
+    margin-right: 3px;
+    /* column-gap: 1%; */
+    /* gap: 1%; */
+
+    
+}
+.division1{
+    width: 35%;
+    background-color:white;
+    height: 100%;
+    /* display: flex; */
+    
+
+}
+.imgfix{
+    display: flex;
+    /* border-radius: 9px; */
+
+}
+.division2{
+    width: 65%;
+    background-color: springgreen;
+    height: 100%;
+    background-size: cover;
+    
+
+
+
+}
+footer{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color:rgb(33, 33, 33);
+    padding: 1% 3% 3% 2%;
+    /* gap: 2%; */
+    margin-left: 12px;
+
+}
+
+.list{
+    list-style: none;
+   
+
+}
+    
+    
+ 
+
+    
+
+
+
